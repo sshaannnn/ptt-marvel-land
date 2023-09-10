@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import LoginPage from "./LoginPage.jsx";
 import ArticlesListPage from "./ArticlesListPage.jsx";
 import ArticleDetailPage from "./ArticleDetailPage.jsx";
+
+import "./index.css";
 
 const router = createBrowserRouter([
   {
